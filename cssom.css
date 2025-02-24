@@ -1,0 +1,103 @@
+.gronlogga {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 20px;
+    color: #647755;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1000;
+}
+
+.gronlogga img {
+    height: 100px;
+}
+
+.knappar {
+    top:20px;
+    right:20px;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    right:0px;
+    margin: 20px;
+    padding: 0;
+    z-index: 10;
+    
+}
+
+.knappar a {
+    display: flex;
+    text-decoration: none;
+    background: #F4E1C1;
+    color: #3C5A36;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    
+
+
+}
+
+.knappar a:hover {
+    background: #3C5A36;
+    color: #F4E1C1;
+}
+
+.om-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #647755;
+}
+
+.linje {
+    width: 20px;
+    background-color:#3C5A36 ;
+    height: 100%;
+    min-height: 400px;
+}
+
+.om {
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instagram-btn img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+    transition: transform 0.3s ease;
+}
+
+.instagram-btn {
+    margin-right: 35px;
+}
+
+.instagram-btn:hover img {
+    transform: scale(1.2);
+}

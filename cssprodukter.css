@@ -1,0 +1,134 @@
+
+.gronlogga {
+    display: flex;
+    top:20px;
+    left:20px;
+    position:absolute;
+    right:0px;
+    margin: 20px;
+    padding: 0;
+    color: #647755;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+}
+
+.gronlogga img{
+    height: 100px;
+    flex-direction: row;
+}
+
+
+
+
+
+
+.produkter{
+    color: #647755;
+    background: #647755;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    }
+    
+    .produkter img{
+        height: 320px;
+        padding: 25px;
+        margin: 10px;
+    }
+    
+    .produkter {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .produkt {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        margin: 10px;
+        height: auto;
+    }
+    
+    .produkt img {
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .produkt p {
+        font-size: 16px;
+        color: #3C5A36;
+        
+        margin-top: 10px;
+    }
+
+    .knappar {
+        top:20px;
+        right:20px;
+        position:absolute;
+        right:0px;
+        margin: 20px;
+        padding: 0;
+        z-index: 10;
+        
+    }
+    
+    .knappar a {
+        display: flex;
+        text-decoration: none;
+        background: #F4E1C1;
+        color: #3C5A36;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        display: inline-block;
+        transition: 0.3s;
+        
+    
+    
+    }
+    
+    .knappar a:hover {
+        background: #3C5A36;
+        color: #F4E1C1;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .instagram-btn {
+        margin-right: 35px;
+    }
+    
+    .instagram-btn img {
+        width: 24px;
+        height: 24px;
+        filter: invert(1); /* Gör ikonen vit om den är svart */
+        transition: transform 0.3s ease;
+    }
+    
+    .instagram-btn:hover img {
+        transform: scale(1.2);
+    }
+    

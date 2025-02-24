@@ -1,0 +1,236 @@
+*{
+    padding:0px;
+    margin:0px;
+
+
+
+    
+
+}
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url(rainforest.png) no-repeat center center/cover;
+    color: #3C5A36;
+    text-shadow: 0px 0px 20px white, 0px 0px 40px #fff, 0px 0px 30px;
+    position: relative; 
+    text-align: center;
+    width: 100wv;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-content h1, .overlay-content h2 {
+    color:  #3C5A36;
+    text-shadow: 0px 0px 2px black;
+    text-shadow: 0px 0px 20px white,0px 0px 40px #fff,0px 0px 30px
+}
+.overlay-content h2 {
+    color: #dcd8c7;
+    text-shadow: 0px 0px 2px black;
+}
+
+.knappar {
+    top:20px;
+    right:20px;
+    position:absolute;
+    right:0px;
+    margin: 20px;
+    padding: 0;
+    z-index: 10;
+    
+}
+
+.knappar a {
+    display: flex;
+    text-decoration: none;
+    background: #F4E1C1;
+    color: #3C5A36;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    
+
+
+}
+
+.knappar a:hover {
+    background: #3C5A36;
+    color: #F4E1C1;
+}
+
+.gronlogga {
+    display: flex;
+    top:20px;
+    left:20px;
+    position:absolute;
+    right:0px;
+    margin: 20px;
+    padding: 0;
+    color: #dcd8c7;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+}
+
+.gronlogga img{
+    height: 100px;
+    flex-direction: row;
+}
+
+.top3{
+color: #647755;
+background: #647755;
+height: 500px;
+margin: 10px;
+padding: 10px;
+align-items: center;
+justify-content: center;
+text-align: center;
+display: i;
+}
+
+.top3 img{
+    height: 320px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.top3 {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.tprodukt {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.tprodukt img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tprodukt p {
+    font-size: 16px;
+    color: #3C5A36;
+    
+    margin-top: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instagram-btn {
+    margin-right: 35px;
+}
+
+.instagram-btn img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); /* Gör ikonen vit om den är svart */
+    transition: transform 0.3s ease;
+}
+
+.instagram-btn:hover img {
+    transform: scale(1.2);
+}
+
+
+.om-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #647755;
+}
+
+.linje {
+    width: 20px;
+    background-color:#3C5A36 ;
+    height: 100%;
+    min-height: 400px;
+}
+
+.om {
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+.produkter{
+    color: #647755;
+    background: #647755;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    }
+    
+    .produkter img{
+        height: 320px;
+        padding: 25px;
+        margin: 10px;
+    }
+    
+    .produkter {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .produkt {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        margin: 10px;
+        height: auto;
+    }
+    
+    .produkt img {
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .produkt p {
+        font-size: 16px;
+        color: #3C5A36;
+        
+        margin-top: 10px;
+    }
